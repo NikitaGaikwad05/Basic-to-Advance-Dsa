@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 public class positive {
-    public static void main(String[] args) {
+    public void pos(){
         int num;
         Scanner sc=new Scanner(System.in);
         num=sc.nextInt();
@@ -13,6 +13,10 @@ public class positive {
         else{
             System.out.println("Number is equal to Zero"+num);
         }
+    }
+    public static void main(String[] args) {
+        positive p=new positive();
+         p.pos();
     }
     
 }
