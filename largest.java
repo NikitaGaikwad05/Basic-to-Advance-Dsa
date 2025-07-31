@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 public class largest {
-    public static void main(String[] args) {
+    public void find(){
         int a,b,c;
         Scanner sc=new Scanner(System.in);
         a=sc.nextInt();
@@ -16,6 +16,10 @@ public class largest {
         else{
             System.out.println("C is greater"+c);
         }
+    }
+    public static void main(String[] args) {
+        largest l=new largest();
+        l.find();
         
     }
     
