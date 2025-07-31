@@ -1,7 +1,8 @@
 import java.util.*;
  import java.io.*;
  public class vowel {
-    public static void main(String[] args) {
+
+    public void vowelcon(){
         char ch;
         Scanner sc=new Scanner(System.in);
         ch=sc.next().charAt(0);
@@ -13,4 +14,9 @@ import java.util.*;
 
     }
     
+    
+    public static void main(String[] args) {
+        vowel v=new vowel();
+        v.vowelcon();
 }
+ }
