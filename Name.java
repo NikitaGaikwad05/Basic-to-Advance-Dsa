@@ -1,4 +1,4 @@
-class Name {
+public class Name {
     public void display(){
         System.out.println("Gaikwad Nikita");
     }
@@ -8,3 +8,4 @@ class Name {
     }
     
 }
+
