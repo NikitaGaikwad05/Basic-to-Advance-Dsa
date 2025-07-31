@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 public class difference {
-    public static void main(String [] args){
-        int num1,num2;
+    public void show(){
+         int num1,num2;
         int d;
         Scanner sc=new Scanner(System.in);
         num1=sc.nextInt();
@@ -14,6 +14,10 @@ public class difference {
             d=num2-num1;
             System.out.println(d);
         }
+    }
+    public static void main(String [] args){
+       difference d=new difference();
+       d.show();
 
     }
     
