@@ -1,10 +1,10 @@
-public class C1{
+public class demo{
      public void show(){
            System.out.println("Hello world");
      
     }
       public static void main(String[] args) {
-           C1 d=new C1();
+           demo d=new demo();
            d.show();
      }
 }
