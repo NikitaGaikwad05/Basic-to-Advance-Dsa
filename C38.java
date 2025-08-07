@@ -1,6 +1,5 @@
 // To display the pattern;
 import java.io.*;
-import java.util.*;
 public class C38{
     public void show(){
         for(int i=1;i<=5;i++){
